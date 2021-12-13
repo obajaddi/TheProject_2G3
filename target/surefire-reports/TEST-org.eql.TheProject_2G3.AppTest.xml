@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eql.TheProject_2G3.AppTest" time="5.769" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eql.TheProject_2G3.AppTest" time="3.25" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -8,7 +8,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;"/>
+    <property name="java.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\org\glassfish\main\javaee-api\javax.jms\3.1.2.2\javax.jms-3.1.2.2.jar;C:\Users\formation\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\net\sf\json-lib\json-lib-ext-spring\1.0.2\json-lib-ext-spring-1.0.2.jar;C:\Users\formation\.m2\repository\net\sf\json-lib\json-lib\2.2.2\json-lib-2.2.2-jdk15.jar;C:\Users\formation\.m2\repository\net\sf\ezmorph\ezmorph\1.0.4\ezmorph-1.0.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-webmvc\2.5.4\spring-webmvc-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-beans\2.5.4\spring-beans-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-context\2.5.4\spring-context-2.5.4.jar;C:\Users\formation\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\formation\.m2\repository\org\springframework\spring-context-support\2.5.4\spring-context-support-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-core\2.5.4\spring-core-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-web\2.5.4\spring-web-2.5.4.jar;C:\Users\formation\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;C:\Users\formation\.m2\repository\net\sf\saxon\saxon-xpath\8.7\saxon-xpath-8.7.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-dom-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans-xpath\2.4.0\xmlbeans-xpath-2.4.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -19,20 +19,20 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Installation\Java\jre1.8.0_152\bin"/>
-    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire4947761512429286958\surefirebooter8672952811695862426.jar C:\Users\formation\AppData\Local\Temp\surefire4947761512429286958 2021-12-08T16-49-02_095-jvmRun1 surefire738981510642804499tmp surefire_03130639459596291207tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;"/>
+    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire3302846685704444138\surefirebooter4301235250675540201.jar C:\Users\formation\AppData\Local\Temp\surefire3302846685704444138 2021-12-13T11-18-09_225-jvmRun1 surefire2841633289140364946tmp surefire_05161985709480304247tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R\target\test-classes;C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\formation\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\formation\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\org\wso2\apache\httpcomponents\httpclient\4.3.1.wso2v1\httpclient-4.3.1.wso2v1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\formation\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\wsdl4j-1.6.2-fixed.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.3\flex-messaging-core-4.7.3.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.3\flex-messaging-common-4.7.3.jar;C:\Users\formation\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\formation\.m2\repository\org\glassfish\main\javaee-api\javax.jms\3.1.2.2\javax.jms-3.1.2.2.jar;C:\Users\formation\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\formation\.m2\repository\com\jgoodies\forms\1.2.1\forms-1.2.1.jar;C:\Users\formation\.m2\repository\net\sf\json-lib\json-lib-ext-spring\1.0.2\json-lib-ext-spring-1.0.2.jar;C:\Users\formation\.m2\repository\net\sf\json-lib\json-lib\2.2.2\json-lib-2.2.2-jdk15.jar;C:\Users\formation\.m2\repository\net\sf\ezmorph\ezmorph\1.0.4\ezmorph-1.0.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-webmvc\2.5.4\spring-webmvc-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-beans\2.5.4\spring-beans-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-context\2.5.4\spring-context-2.5.4.jar;C:\Users\formation\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\formation\.m2\repository\org\springframework\spring-context-support\2.5.4\spring-context-support-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-core\2.5.4\spring-core-2.5.4.jar;C:\Users\formation\.m2\repository\org\springframework\spring-web\2.5.4\spring-web-2.5.4.jar;C:\Users\formation\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;C:\Users\formation\.m2\repository\net\sf\saxon\saxon-xpath\8.7\saxon-xpath-8.7.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-dom-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans-xpath\2.4.0\xmlbeans-xpath-2.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\formation"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Installation\Java\jre1.8.0_152"/>
-    <property name="basedir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3"/>
+    <property name="basedir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire4947761512429286958\surefirebooter8672952811695862426.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire3302846685704444138\surefirebooter4301235250675540201.jar"/>
     <property name="sun.boot.class.path" value="C:\Installation\Java\jre1.8.0_152\lib\resources.jar;C:\Installation\Java\jre1.8.0_152\lib\rt.jar;C:\Installation\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Installation\Java\jre1.8.0_152\lib\jsse.jar;C:\Installation\Java\jre1.8.0_152\lib\jce.jar;C:\Installation\Java\jre1.8.0_152\lib\charsets.jar;C:\Installation\Java\jre1.8.0_152\lib\jfr.jar;C:\Installation\Java\jre1.8.0_152\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,7 +48,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\FORMAT~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_152"/>
-    <property name="user.dir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3"/>
+    <property name="user.dir" value="C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,256 +61,119 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test" classname="org.eql.TheProject_2G3.AppTest" time="5.764">
-    <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
-16:49:03,430 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\ext] for external libraries
-16:49:03,637 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
-16:49:05,843 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
-16:49:05,843 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
-16:49:06,687 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-16:49:06,689 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-16:49:06,700 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
-16:49:07,477 WARN  [PluginManager] Could not load plugin from file [C:\Users\formation\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
-com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.ready.PluginConfig
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-Caused by: java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
-	at java.util.zip.ZipFile.access$200(Unknown Source)
-	at java.util.zip.ZipFile$ZipEntryIterator.hasNext(Unknown Source)
-	at java.util.zip.ZipFile$ZipEntryIterator.hasMoreElements(Unknown Source)
-	at java.util.jar.JarFile$JarEntryIterator.hasNext(Unknown Source)
-	at java.util.jar.JarFile$JarEntryIterator.hasMoreElements(Unknown Source)
-	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:30)
-	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:26)
-	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
-	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
-	at org.reflections.Reflections.scan(Reflections.java:243)
-	at org.reflections.Reflections.scan(Reflections.java:202)
-	at org.reflections.Reflections.<init>(Reflections.java:123)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:106)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	... 12 more
-16:49:07,478 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
-16:49:07,493 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-16:49:07,494 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-16:49:07,507 INFO  [PluginManager] Adding plugin from [C:\Users\formation\.soapuios\plugins\readyapi-postman-1.0.1.jar]
-16:49:08,379 WARN  [PluginManager] Could not load plugin from file [C:\Users\formation\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
-com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.plugins.swaggerhub.PluginConfig
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-Caused by: java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source)
-	at java.util.zip.ZipFile.access$200(Unknown Source)
-	at java.util.zip.ZipFile$ZipEntryIterator.hasNext(Unknown Source)
-	at java.util.zip.ZipFile$ZipEntryIterator.hasMoreElements(Unknown Source)
-	at java.util.jar.JarFile$JarEntryIterator.hasNext(Unknown Source)
-	at java.util.jar.JarFile$JarEntryIterator.hasMoreElements(Unknown Source)
-	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:30)
-	at org.reflections.vfs.ZipDir$1$1.computeNext(ZipDir.java:26)
-	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:145)
-	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:140)
-	at org.reflections.Reflections.scan(Reflections.java:243)
-	at org.reflections.Reflections.scan(Reflections.java:202)
-	at org.reflections.Reflections.<init>(Reflections.java:123)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:106)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	... 12 more
-16:49:08,389 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-16:49:08,389 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-16:49:08,392 INFO  [PluginManager] 5 plugins loaded in 2550 ms
-16:49:08,392 INFO  [DefaultSoapUICore] All plugins loaded
-16:49:08,960 INFO  [SoapUI] File [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\src\test\ressources\REST-Simpleplan-soapui-project.xml] does not exist, trying URL instead
-16:49:08,960 ERROR [SoapUI] An error occurred [no protocol: src/test/ressources/REST-Simpleplan-soapui-project.xml], see error log for details
+  <testcase name="testIntermediaire" classname="org.eql.TheProject_2G3.AppTest" time="3.247">
+    <system-out><![CDATA[11:18:10,765 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3R\ext] for external libraries
+11:18:10,923 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+11:18:11,732 INFO  [PluginManager] 0 plugins loaded in 1 ms
+11:18:11,733 INFO  [DefaultSoapUICore] All plugins loaded
+11:18:12,424 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/TheProject_2G3R/src/test/resources/REST-Simpleplan-soapui-project.xml]
+11:18:12,483 ERROR [WsdlSubmit] Exception in request: java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+11:18:12,483 ERROR [SoapUI] An error occurred [Index: 1, Size: 1], see error log for details
+11:18:12,560 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:12,560 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements HTTP/1.1
+11:18:12,583 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:12,585 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:12,609 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:12,613 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:12,613 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources HTTP/1.1
+11:18:12,678 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:12,679 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,319 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,324 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,324 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources?ressource-code=%5B%22API_RESC_M01%22%5D&worker-firstname=%5B%22test%20ressource%201%22%5D&worker-surname=%5B%22ceci%20est%20une%20description%22%5D&worker-nif=%5Bw1_nif%5D&machine-name=%22machine%201%22&machine-desc=%22description%20de%20machine%22 HTTP/1.1
+11:18:13,391 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,392 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,394 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,396 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,396 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources HTTP/1.1
+11:18:13,453 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,454 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,465 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,468 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,468 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources?ressource-code=%5B%22API_RESC_W01%22%5D&worker-firstname=%22worker-firstname%22&worker-surname=%22worker-surname%22&worker-nif=%5B%22worker-nif%22%5D&machine-name=%5B%22machine%20name%22%5D&machine-desc=%5B%22description%20de%20machine%22%5D HTTP/1.1
+11:18:13,507 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,507 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,510 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,513 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,513 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources HTTP/1.1
+11:18:13,566 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,566 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,574 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,575 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,575 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources HTTP/1.1
+11:18:13,630 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,630 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,637 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,640 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,640 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/m1639390692679m HTTP/1.1
+11:18:13,666 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,666 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,671 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,674 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,674 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources HTTP/1.1
+11:18:13,729 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:18:13,730 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:18:13,737 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:18:13,740 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:18:13,740 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: DELETE /libreplan/ws/rest/resources/m1639390692679m HTTP/1.1
+11:18:13,754 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 500 Erreur Interne de Servlet
+11:18:13,757 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Connection 0.0.0.0:64229<->127.0.0.1:8090 shut down
+11:18:13,757 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Connection 0.0.0.0:64229<->127.0.0.1:8090 closed
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+    <system-err><![CDATA[déc. 13, 2021 11:18:10 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: Je vais faire un truc
+SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in [jar:file:/C:/Users/formation/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/C:/Installation/SmartBear/SoapUI-5.4.0/lib/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-java.net.MalformedURLException: no protocol: src/test/ressources/REST-Simpleplan-soapui-project.xml
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:227)
-	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
-	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
-	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:349)
-	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
-	at org.eql.TheProject_2G3.AppTest.test(AppTest.java:22)
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestSuite Demo***********
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestCase Demo***********
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.eviware.soapui.impl.rest.support.RestRequestParamsPropertyHolder.getPropertyAt(RestRequestParamsPropertyHolder.java:208)
+	at com.eviware.soapui.impl.wsdl.submit.filters.HttpRequestFilter.filterHttpRequest(HttpRequestFilter.java:91)
+	at com.eviware.soapui.impl.wsdl.submit.filters.RestRequestFilter.filterRestRequest(RestRequestFilter.java:31)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.filterAbstractHttpRequest(AbstractRequestFilter.java:41)
+	at com.eviware.soapui.impl.wsdl.submit.filters.AbstractRequestFilter.filterRequest(AbstractRequestFilter.java:33)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.filterRequest(HttpClientRequestTransport.java:318)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:180)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:119)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:79)
+	at com.eviware.soapui.impl.rest.RestRequest.submit(RestRequest.java:192)
+	at com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.run(RestTestRequestStep.java:794)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at org.eql.TheProject_2G3.AppTest.testIntermediaire(AppTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at junit.framework.TestCase.runTest(TestCase.java:177)
-	at junit.framework.TestCase.runBare(TestCase.java:142)
-	at junit.framework.TestResult$1.protect(TestResult.java:122)
-	at junit.framework.TestResult.runProtected(TestResult.java:142)
-	at junit.framework.TestResult.run(TestResult.java:125)
-	at junit.framework.TestCase.run(TestCase.java:130)
-	at junit.framework.TestSuite.runTest(TestSuite.java:241)
-	at junit.framework.TestSuite.run(TestSuite.java:236)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
 	at org.junit.runners.Suite.runChild(Suite.java:128)
 	at org.junit.runners.Suite.runChild(Suite.java:27)
 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
@@ -330,42 +193,67 @@ java.net.MalformedURLException: no protocol: src/test/ressources/REST-Simpleplan
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-java.lang.Exception: Failed to load SoapUI project file [src/test/ressources/REST-Simpleplan-soapui-project.xml]
-	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:353)
-	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
-	at org.eql.TheProject_2G3.AppTest.test(AppTest.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at junit.framework.TestCase.runTest(TestCase.java:177)
-	at junit.framework.TestCase.runBare(TestCase.java:142)
-	at junit.framework.TestResult$1.protect(TestResult.java:122)
-	at junit.framework.TestResult.runProtected(TestResult.java:142)
-	at junit.framework.TestResult.run(TestResult.java:125)
-	at junit.framework.TestCase.run(TestCase.java:130)
-	at junit.framework.TestSuite.runTest(TestSuite.java:241)
-	at junit.framework.TestSuite.run(TestSuite.java:236)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
-	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
-	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
-	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
-	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
-	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: 
+TessSuite : TestSuite Demo
+  TestCase : TestCase Demo
+    GET get projet - Request 1 = FAILED  en : 0 ms
+
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+AVERTISSEMENT: Il y a : 1 test en échec
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestSuite Projets***********
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestCase 1 - Passant***********
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: 
+TessSuite : TestSuite Projets
+  TestCase : TestCase 1 - Passant
+    GET get all projet - Request 1 - 1 = FAILED  en : 86 ms
+
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+AVERTISSEMENT: Il y a : 2 test en échec
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestSuite Ressources***********
+déc. 13, 2021 11:18:12 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestCase 1 - Creation***********
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: 
+TessSuite : TestSuite Ressources
+  TestCase : TestCase 1 - Creation
+    GET get all ressources - Request 1 1 = OK  en : 70 ms
+    GS - Init noms ressources = OK  en : 622 ms
+    POST create ressource - Request 1 machine 3 = OK  en : 72 ms
+    GET get all ressources - Request 1 4 = OK  en : 59 ms
+    POST create ressource - Request 2 worker 5 = OK  en : 41 ms
+    GET get all ressources - Request 1 6 = OK  en : 55 ms
+
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+AVERTISSEMENT: Il y a : 2 test en échec
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestCase 2 - Accès***********
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: 
+TessSuite : TestSuite Ressources
+  TestCase : TestCase 2 - Accès
+    GET get all ressources - Request 1 1 = OK  en : 56 ms
+    GET get a ressource - Request 1 2 = OK  en : 30 ms
+
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+AVERTISSEMENT: Il y a : 2 test en échec
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestCase 3 - Suppression***********
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: 
+TessSuite : TestSuite Ressources
+  TestCase : TestCase 3 - Suppression
+    GET get all ressources - Request 1 1 = OK  en : 58 ms
+    DELETE delete ressource - Request 1 2 = FAILED  en : 19 ms
+
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+AVERTISSEMENT: Il y a : 3 test en échec
+déc. 13, 2021 11:18:13 AM org.eql.TheProject_2G3.AppTest testIntermediaire
+INFOS: ******Running TestSuite Calendrier***********
 ]]></system-err>
   </testcase>
 </testsuite>
